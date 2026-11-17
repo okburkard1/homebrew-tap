@@ -3,8 +3,8 @@ class RainbowBonsai < Formula
 
   desc "Grow a color-cycling bonsai in your terminal"
   homepage "https://github.com/okburkard1/rainbow-bonsai"
-  url "https://github.com/okburkard1/rainbow-bonsai/releases/download/v0.1.0/rainbow-bonsai-0.1.0.tar.gz"
-  sha256 "ef92d43ca76e6e5802750167e34dd704dbf8d59aea75cad36a328cdab06ecdad"
+  url "https://github.com/okburkard1/rainbow-bonsai/releases/download/v0.1.1/rainbow-bonsai-0.1.1.tar.gz"
+  sha256 "4c27e1b7b106b20529ed0db1c65b2070be3b2f9c2da9fb35c09df31b0b1130b2"
 
   depends_on "python@3.15"
 
@@ -14,7 +14,7 @@ class RainbowBonsai < Formula
   end
 
   test do
-    assert_match "--dirt", shell_output("#{bin}/rainbow-bonsai --help")
+    assert_match "--dirt", shell_output("#{bin}/rainbow-bonsai -help")
     assert_match "terminal", shell_output("#{bin}/rainbow-bonsai </dev/null 2>&1", 1)
   end
 end
