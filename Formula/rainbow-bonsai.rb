@@ -3,8 +3,8 @@ class RainbowBonsai < Formula
 
   desc "Grow a color-cycling bonsai in your terminal"
   homepage "https://github.com/okburkard1/rainbow-bonsai"
-  url "https://github.com/okburkard1/rainbow-bonsai/releases/download/v0.1.1/rainbow-bonsai-0.1.1.tar.gz"
-  sha256 "4c27e1b7b106b20529ed0db1c65b2070be3b2f9c2da9fb35c09df31b0b1130b2"
+  url "https://github.com/okburkard1/rainbow-bonsai/releases/download/v0.1.2/rainbow-bonsai-0.1.2.tar.gz"
+  sha256 "c1b2ba5fddf742e896626423c7a94724997e4d2bc8569183b5b3325e7df00e9d"
 
   depends_on "python@3.15"
 
